@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+    <title>TacoBell</title>
+</head>
+
+<body>
+
+    <header>
+
+        <figure>
+            <img src="img/logo.png" alt="Logo" title="TacoBell">
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="#menu">MENÚ</a></li>
+                <li><a href="#fotos">FOTOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="fotoFondo">
+            <!--FOTO DE FONDO-->
+            <h1 id="promos">¡NUEVAS PROMOCIONES!</h1>
+            <p id="app">Descargate nuestra app y enterate de nuestras novedades</p>
+            <input type="button" id="boton1" value="EXPLORAR PROMOCIONES">
+        </section>
+
+        <section class="classCategorias">
+            <!--CATEGORÍAS-->
+            <article id="tacos">
+                <figure>
+                    <img src="img/Tacos.webp" alt="Tacos" title="Tacos">
+                </figure>
+                <a href="#">Tacos</a>
+            </article>
+            <article id="burritos">
+                <figure>
+                    <img src="img/Burritos.webp" alt="Burritos" title="Burritos">
+                </figure>
+                <a href="#">Burritos</a>
+            </article>
+            <article id="wraps">
+                <figure>
+                    <img src="img/CrunchyWrap.webp" alt="Wraps" title="Wraps">
+                </figure>
+                <a href="#">Wraps</a>
+            </article>
+            <article id="quesadillas">
+                <figure>
+                    <img src="img/Quesadilla.webp" alt="Quesadillas" title="Quesadillas">
+                </figure>
+                <a href="#">Quesadillas</a>
+            </article>
+            <article id="ensaladas">
+                <figure>
+                    <img src="img/Salad.webp" alt="Ensaladas" title="Ensaladas">
+                </figure>
+                <a href="#">Ensaladas</a>
+            </article>
+            <article id="veggie">
+                <figure>
+                    <img src="img/Veggie.webp" alt="Vegetariano" title="Vegetariano">
+                </figure>
+                <a href="#">Vegetariano</a>
+            </article>
+            <article id="postres">
+                <figure>
+                    <img src="img/Postres.webp" alt="Postres" title="Postres">
+                </figure>
+                <a href="#">Postres</a>
+            </article>
+            <article id="refrescos">
+                <figure>
+                    <img src="img/Refrescos.webp" alt="Refrescos" title="Refrescos">
+                </figure>
+                <a href="#">Refrescos</a>
+            </article>
+        </section>
+
+        <section id="menu">
+            <!--MENÚ-->
+            <div class="classMenu">
+                <h2>Menú</h2>
+            </div>
+            <div class="classComidas">
+                <article id="tacoSuave">
+                    <img src="img/SoftTaco.webp" alt="Taco Suave" title="Taco Suave">
+                    <h3>Taco Suave</h3>
+                    <p>Ingredientes: Tortilla de maíz, carne vacuna, lechuga, tomate, pepino, queso cheddar y queso
+                        crema.</p>
+                </article>
+                <article id="burritoPicante">
+                    <img src="img/CheesyBurrito.webp" alt="Burrito Picante" title="Burrito Picante">
+                    <h3>Burrito Picante</h3>
+                    <p>Ingredientes: Tortilla de maíz, carne vacuna, arroz, queso cheddar, chile habanero y salsa
+                        picante.</p>
+                </article>
+                <article id="wrapCrujiente">
+                    <img src="img/CrunchyWrap.webp" alt="Wrap Crujiente" title="Wrap Crujiente">
+                    <h3>Wrap Crujiente</h3>
+                    <p>Ingredientes: Tortilla de maíz, nachos, carne vacuna, lechuga, tomate, queso cheddar y queso
+                        crema.</p>
+                </article>
+
+                <aside>
+                    <h3><strong>Más Vendidos</strong></h3>
+                    <div class="classmasVendido">
+                        <ul id="lista">
+                            <li>Taco Suave</li>
+                            <li>Wrap Crujiente</li>
+                            <li>Burrito Picante</li>
+                            <li>Taco Mexicano</li>
+                            <li>Burrito de Pollo</li>
+                            <li>Quesadilla Clásica</li>
+                            <li>Nachos Picantes</li>
+                        </ul>
+                    </div>
+                </aside>
+
+        </section>
+
+        <section id="fotos">
+            <div class="classh2">
+                <h2>Fotos</h2>
+            </div>
+            <!--FOTOS-->
+            <div class="classFotos">
+                <figure id="uno"><img src="img/tacobellV.jpg" alt="Local" title="Local"></figure>
+                <figure id="dos"><img src="img/tacobellH1.jpg" alt="Local" title="Local"></figure>
+                <figure id="tres"><img src="img/tacobelH2.jpg" alt="Local" title="Local"></figure>
+                <figure id="cuatro"><img src="img/tacobellV3.jpg" alt="Local" title="Local"></figure>
+            </div>
+        </section>
+
+        <section id="contacto" class="classContacto">
+            <!--CONTACTO-->
+            <h2>CONTACTO</h2>
+            <form action="#">
+                <input type="text" placeholder="Nombre Completo *" required>
+                <input type="email" placeholder="Email *" required>
+                <select name="pais" id="pais" required>
+                    <option value="" selected disabled>Seleciona tu país</option>
+                    <optgroup label="América del Sur">
+                        <option value="UY">Uruguay</option>
+                        <option value="AR">Argentina</option>
+                        <option value="BR">Brasil</option>
+                    </optgroup>
+                    <optgroup label="América del Norte">
+                        <option value="US">Estados Unidos</option>
+                        <option value="MX">Mexico</option>
+                        <option value="CA">Canadá</option>
+                    </optgroup>
+                    <optgroup label="Europa">
+                        <option value="ES">España</option>
+                        <option value="PT">Portugal</option>
+                        <option value="FR">Francia</option>
+                    </optgroup>
+                </select>
+                <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+                <input type="submit" id="enviar" value="Enviar">
+            </form>
+            <figure><img src="img/tacobelLogoo.png" alt="Logo" title="Logo"></figure>
+        </section>
+
+    </main>
+
+    <footer>
+        <!--SEGUINOS-->
+        <p>SEGUINOS</p>
+        <nav>
+            <ul>
+                <li id="instagram"><a href="#"></a></li>
+                <li id="facebook"><a href="#"></a></li>
+                <li id="twitter"><a href="#"></a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+</body>
+
+</html>
